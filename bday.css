@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    margin:auto;
+    background-color: #557A95;
+}
+nav{
+    background-color:#ADEFD1FF ;
+    text-align: center;
+}
+h1{
+    font-family: 'Pangolin', cursive;
+    font-weight: 600;
+    color: #4976a0;
+    margin: 0px;
+    padding: 10px;
+}
+h3{
+    color:#8ab3d0  ;
+}
+.container{
+    padding: 0px;
+    margin: auto;
+    width: 100%;
+}
+.carousel-indicators li{
+height: 3px;
+width: 30px;
+padding: 2px;
+background-color: #fff;
+}
+
+.carousel-indicators .active{
+    height: 7px;
+    width: 60px;
+}
+
+.carousel .item {
+    height: 300px;
+}
+
+.item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+    max-height: 100%;
+}   
+.btn-info{
+    margin:10%;
+}
