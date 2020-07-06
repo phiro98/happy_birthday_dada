@@ -1,7 +1,8 @@
 body{
     text-align: center;
     margin:auto;
-    background-color: #557A95;
+    position: relative;
+    //background-color: #557A95;
 }
 nav{
     background-color:#ADEFD1FF ;
@@ -16,35 +17,59 @@ h1{
 }
 h3{
     color:#8ab3d0  ;
+    margin: 0px;
 }
 .container{
     padding: 0px;
     margin: auto;
     width: 100%;
 }
-.carousel-indicators li{
-height: 3px;
-width: 30px;
-padding: 2px;
-background-color: #fff;
+.p1{
+    margin-top: 10%;
+}
+.btn-info{
+    margin: 0% 10%;
+}
+.cake{
+    height: max-content;
+    width: 60%;
+    float: none;
 }
 
-.carousel-indicators .active{
-    height: 7px;
-    width: 60px;
-}
 
-.carousel .item {
-    height: 300px;
+/*
+flip card
+*/
+.card{
+    height: 200px;
+    width: 56%;
+    background-color: blue;
+    margin: 8%;
 }
-
-.item img {
+.card-flip > div {
+    backface-visibility: hidden;
+    transition: transform 300ms;
+    transition-timing-function: linear;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+  }
+  
+  .card-front {
+    transform: rotateY(0deg);
+  }
+  
+  .card-back {
+    transform: rotateY(180deg);
     position: absolute;
     top: 0;
-    left: 0;
-    min-height: 300px;
-    max-height: 100%;
-}   
-.btn-info{
-    margin:10%;
-}
+  }
+  
+  .card-flip:hover .card-front {
+    transform: rotateY(-180deg);
+  }
+    
+  .card-flip:hover .card-back {
+    transform: rotateY(0deg);
+  }
