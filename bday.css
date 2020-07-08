@@ -1,8 +1,6 @@
 body{
     text-align: center;
     margin:auto;
-    position: relative;
-    //background-color: #557A95;
 }
 nav{
     background-color:#ADEFD1FF ;
@@ -67,7 +65,7 @@ h3{
   }
   
   .flip-card:hover .flip-card-inner {
-    transform: scale(1.3) rotateY(180deg);
+    transform: scale(1.15) rotateY(180deg);
     cursor: pointer;
   }
   
@@ -94,7 +92,8 @@ h3{
   }
   .flip-card-back p{
       font-family: cursive;
-      margin-top: 10%;
+      margin-top: 7%;
+      padding: 1%;
       font-size: medium;
   }
   
