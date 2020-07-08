@@ -88,7 +88,7 @@ h3{
     transform: rotateY(180deg);
   }
   .flip-card-back p{
-      font-family: sans-serif;
+      font-family: 'Times New Roman', Times, serif;
       margin-top: 7%;
       padding: 1%;
       font-size: medium;
